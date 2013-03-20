@@ -6,7 +6,7 @@ include_recipe "crowdint_workstation::essentials"
 brew "rbenv"
 brew "ruby-build"
 
-crowdvoice_workstation_bash_it_enable_feature "plugins/rbenv"
+crowdint_workstation_bash_it_enable_feature "plugins/rbenv"
 
 node["rbenv"]["rubies"].each do |version, options|
   rbenv_ruby_install version do
