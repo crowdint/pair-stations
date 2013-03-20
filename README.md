@@ -19,7 +19,7 @@ cat > ~/Cheffile <<EOF
 site "http://community.opscode.com/api/v1"
 
 cookbook "crowdint_workstation",
-         :path => "https://github.com/crowdint/pair-stations.git"
+         :git => "git://github.com/crowdint/pair-stations.git"
 EOF
 
 cat > ~/soloistrc <<EOF
