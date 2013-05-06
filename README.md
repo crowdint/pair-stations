@@ -15,6 +15,7 @@ Before start ensure you have the latest Xcode installed and accept the xcode agr
 First create the manifest files needed to install the packages, for the aditional accounts you have to run it again with the changing the recipe on soloistrc to *meta_osx_pair*
 
 ```bash
+sudo gem install chef -v11.4.0
 cat > ~/Cheffile <<EOF
 site "http://community.opscode.com/api/v1"
 
