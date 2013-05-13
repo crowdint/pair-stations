@@ -36,3 +36,7 @@ end
 execute "set display, disk and computer sleep times" do
   command "pmset -a displaysleep 20 disksleep 15 sleep 0"
 end
+
+execute "disable automatic updates" do
+  command "sudo softwareupdate --schedule off"
+end
