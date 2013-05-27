@@ -1,5 +1,5 @@
-node.default["textmate"]["url"] = "https://github.com/downloads/textmate/textmate/TextMate_r9345.tbz"
-node.default["textmate"]["shasum"] = "ecfc4546db94945ca74765ad78363219"
+node.default["textmate"]["url"] = "https://github.com/downloads/textmate/textmate/TextMate_alpha-9419.tbz"
+node.default["textmate"]["shasum"] = "7582f447c0bb727facda7eaeb13b1e8da0bbeb3b"
 
 unless File.exists?("/Applications/TextMate.app")
   directory Chef::Config[:file_cache_path] do
