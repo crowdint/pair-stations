@@ -14,7 +14,7 @@ include_recipe "crowdint_workstation::add_pair_users"
 # Load text editors
 include_recipe "crowdint_workstation::text_editor_rubymine"
 include_recipe "crowdint_workstation::text_editor_sublime"
-include_recipe "crowdint_workstation::text_editor_textmate2"
+include_recipe "crowdint_workstation::text_editor_vim"
 
 # Load apps
 include_recipe "crowdint_workstation::rbenv"
