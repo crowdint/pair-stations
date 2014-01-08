@@ -1,6 +1,7 @@
 include_recipe "crowdint_workstation::homebrew"
 include_recipe "crowdint_workstation::directories"
 include_recipe "crowdint_workstation::essentials"
+include_recipe "crowdint_workstation::clipmenu"
 
 # Load system preferences
 include_recipe "crowdint_workstation::preference_config"
@@ -20,6 +21,7 @@ include_recipe "crowdint_workstation::text_editor_textmate2"
 include_recipe "crowdint_workstation::rbenv"
 include_recipe "crowdint_workstation::iterm2"
 include_recipe "crowdint_workstation::sizeup"
-#∫include_recipe "crowdint_workstation::mysql"
+
+#include_recipe "crowdint_workstation::mysql"
 include_recipe "crowdint_workstation::postgres_app"
 include_recipe "crowdint_workstation::redis"
