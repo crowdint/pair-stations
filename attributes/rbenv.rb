@@ -1,8 +1,8 @@
 unless node["rbenv"]
   node.default["rbenv"]= {
     "rubies" => {
-        "1.9.3-p392" => { :env => {"CC" => "clang"}}
+        "2.0.0-p247" => { :env => {"CC" => "clang"}}
       },
-    "default_ruby" => "1.9.3-p392"
+    "default_ruby" => "2.0.0-p247"
   }
 end
